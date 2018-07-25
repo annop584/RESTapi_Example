@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Members</h1>
+      <div class="row" id="addMember">
+        <div class="col-md-12">
+ 				  <div class="form-group row">
+ 				    <label for="Name" class="col-sm-1 col-form-label">Name</label>
+ 				    <div class="col-sm-11">
+ 				      <input type="text" class="form-control" id="inputName" placeholder="name">
+ 				    </div>
+ 				  </div>
+   			</div>
+        <div class="col-md-12">
+          <div class="form-group row">
+            <label for="Surname" class="col-sm-1 col-form-label">Surname</label>
+            <div class="col-sm-11">
+              <input type="text" class="form-control" id="inputSurname" placeholder="Surname">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="form-group row">
+            <label for="Nickname" class="col-sm-1 col-form-label">Nickname</label>
+            <div class="col-sm-11">
+              <input type="text" class="form-control" id="inputNickname" placeholder="Nickname">
+            </div>
+          </div>
+        </div>
+   			<div class="col-md-12">
+   				  <div class="form-group row">
+   				    <label for="Age" class="col-sm-1 col-form-label">Age</label>
+   				    <div class="col-sm-11">
+   				      <input type="text" class="form-control" id="inputAge" placeholder="age">
+   				    </div>
+   				  </div>
+   			</div>
+        <div class="col-md-12">
+   				  <div class="form-group row">
+   				    <label for="Job" class="col-sm-1 col-form-label">Job</label>
+   				    <div class="col-sm-11">
+   				      <input type="text" class="form-control" id="inputJob" placeholder="job">
+   				    </div>
+   				  </div>
+   			</div>
+        <div class="col-md-12">
+   				  <div class="form-group row">
+   				    <label for="Favoritegame" class="col-sm-1 col-form-label">Favgame</label>
+   				    <div class="col-sm-11">
+   				      <input type="text" class="form-control" id="inputFavoritegame" placeholder="favoritegame">
+   				    </div>
+   				  </div>
+   			</div>
+   			<div class="col-md-12">
+   					<div class="form-group row">
+   						<label for="Hobby" class="col-sm-1 col-form-label">Hobby</label>
+   						<div class="col-sm-11">
+   							<input type="text" class="form-control" id="inputHobby" placeholder="hobby">
+   						</div>
+   					</div>
+   			</div>
+
+        <div class="col-md-12">
+          <p class="text-center"><a id="buttonSend" class="btn btn-success">Send</a></p>
+        </div>
+      </div>
+      <hr>
+      <div id="showMember">
+        <div class="row">
+          <table id="bmitable" class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+              </tr>
+            </thead>
+            <tbody>
+                  <!-- wait for fetchMembers -->
+            </tbody>
+          </table>
+          <div class="col-md-12">
+            <p class="text-center"><a id="buttonRefresh" class="btn btn-primary">Refresh</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/src/index.js"></script>
+    <!-- <script src="../dist/bundle.js"></script> -->
+  </body>
+</html>

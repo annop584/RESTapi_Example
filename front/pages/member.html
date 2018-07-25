@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <title>Member</title>
+</head>
+<body>
+    <div class="container">
+          <h1 class="text-center" id="titleMember">Member</h1>
+          <div class="row">
+              <div class="col-md-4 mb-3">
+                <label for="">First name</label>
+                <input type="text" class="form-control member-form"  id="inputName" placeholder="First name" value="">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="">Last name</label>
+                <input type="text" class="form-control member-form"  id="inputSurname" placeholder="Last name" value="">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="">Nick name</label>
+                <input type="text" class="form-control member-form"  id="inputNickname" placeholder="Last name" value="">
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-4 mb-3">
+                <label for="">Age</label>
+                <input type="text" class="form-control member-form"  id="inputAge" placeholder="Age" value="">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="">Job</label>
+                <input type="text" class="form-control member-form"  id="inputJob" placeholder="Job" value="">
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="">Favoritegame</label>
+                <input type="text" class="form-control member-form"  id="inputFavoritegame" placeholder="Favoritegame" value="">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-4 mb-3">
+                <label for="">Hobby</label>
+                <input type="text" class="form-control member-form"  id="inputHobby" placeholder="Hobby" value="">
+              </div>
+          </div>
+          <p class="text-center"><a id="toggleShowOrEdit" data-isEdit="edit" class="btn btn-primary">Edit</a></p>
+          <p class="text-center"><a id="buttonUpdate" class="btn btn-warning" hidden>Update</a></p>
+          <p class="text-center"><a id="buttonDelete" class="btn btn-danger" hidden>Delete</a></p>
+    </div>
+
+
+    <script src="/src/member.js"></script>
+</body>
+</html>

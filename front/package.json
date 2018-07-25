@@ -1,0 +1,21 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "dev": "webpack-dev-server --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
